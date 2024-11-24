@@ -1,4 +1,4 @@
-﻿#browsers
+#browsers
 
 #themes
 
