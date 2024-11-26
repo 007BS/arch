@@ -41,7 +41,7 @@ App_Install__wine_mono=1
 #App_Install__discord=1
 #App_Install__dropbox=0
 #App_Install__filezilla=1
-App_Install__git=1
+#App_Install__git=1
 #App_Install__gimp=0
 #App_Install__handbrake=1
 #App_Install__jitsi_meet=0
@@ -67,6 +67,10 @@ App_Install__mega=1
 #App_Install__vlc=1
 #App_Install__vuze=0
 #App_Install__wire=1
+
+add_device_labels=Data Games
+
+linutil__christitus=1
 
 Dark='Windows-10-Dark'
 theme__setting__applications=$Dark
