@@ -21,6 +21,7 @@ App_Install__heroic_launcher=1
 App_Install__paradox_launcher=1
 
 #Terminals
+App_Install__gnome_terminal=1
 
 #themes
 App_Install__adwaita_theme=1
@@ -39,7 +40,6 @@ App_Install__dropbox=0
 App_Install__filezilla=1
 App_Install__git=1
 App_Install__gimp=0
-App_Install__gnome_terminal=1
 App_Install__handbrake=1
 App_Install__jitsi_meet=1
 App_Install__keepass=1
