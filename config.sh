@@ -1,23 +1,27 @@
 #!/bin/bash
+# Disclaimer:
+# This script is provided as-is, without any warranty or guarantee.
+# By using this script, you acknowledge that you do so at your own risk.
+# I am not responsible for any damage, data loss, or other issues that may result from the use of this script.
 
 #browsers
+App_Install__brave=1
+App_Install__firefox=1
 
 #themes
+App_Install__adwaita_theme=1
 
 App_Install__wine=1
 App_Install__wine_mono=1
 App_Install__7_zip=1
-App_Install__adwaita_theme=1
 App_Install__anydesk=1
 App_Install__audacity=1
 App_Install__biglybt=1
 App_Install__bleachbit=1
-App_Install__brave=1
 App_Install__calibre=1
 App_Install__discord=1
 App_Install__dropbox=1
 App_Install__filezilla=1
-App_Install__firefox=1
 App_Install__font_dejavu=1
 App_Install__git=1
 App_Install__gimp=1
@@ -54,5 +58,3 @@ App_Install__vlc=1
 App_Install__vuze=1
 App_Install__waterfox=1
 App_Install__wire=1
-
-<(curl -L https://raw.githubusercontent.com/TheSuperGiant/Arch/refs/heads/Arch/2.sh)
