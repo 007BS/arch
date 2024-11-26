@@ -68,9 +68,9 @@ App_Install__mega=1
 #App_Install__vuze=0
 #App_Install__wire=1
 
-add_device_labels=Data Games
+add_device_labels="Data" "Games"
 
-linutil__christitus=1
+#linutil__christitus=1
 
 Dark='Windows-10-Dark'
 theme__setting__applications=$Dark
