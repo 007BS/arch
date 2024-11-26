@@ -10,7 +10,8 @@ App_Install__7_zip=1
 #browsers
 App_Install__brave=1
 App_Install__firefox=1
-App_Install__google_chrome=1
+App_Install__google_chrome=0
+App_Install__librewolf=1
 App_Install__opera=0
 App_Install__thorium=1
 App_Install__torbrowser=0
@@ -18,6 +19,7 @@ App_Install__waterfox=1
 
 #game launchers
 App_Install__heroic_launcher=1
+App_Install__minecraft_launcher=1
 App_Install__paradox_launcher=1
 
 #Terminals
@@ -41,11 +43,10 @@ App_Install__filezilla=1
 App_Install__git=1
 App_Install__gimp=0
 App_Install__handbrake=1
-App_Install__jitsi_meet=1
+App_Install__jitsi_meet=0
 App_Install__keepass=1
 App_Install__libreoffice=1
-App_Install__librewolf=1
-App_Install__minecraft_launcher=1
+App_Install__mega=0
 App_Install__notepadqq=1
 App_Install__notepadPlusPlus=1
 App_Install__numlockx=1
