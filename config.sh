@@ -68,7 +68,7 @@ App_Install__wine_mono=1
 #App_Install__vuze=0
 #App_Install__wire=1
 
-add_device_labels="Data" "Games" "test"
+add_device_labels=("Data" "Games" "test")
 
 #linutil__christitus=1
 
