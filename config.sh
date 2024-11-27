@@ -11,7 +11,7 @@
 #App_Install__brave=1
 #App_Install__firefox=1
 #App_Install__google_chrome=0
-App_Install__librewolf=1
+#App_Install__librewolf=1
 #App_Install__opera=0
 #App_Install__thorium=1
 #App_Install__torbrowser=0
