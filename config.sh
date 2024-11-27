@@ -70,6 +70,8 @@ App_Install__wine_mono=1
 
 add_device_labels=("Data" "Games")
 
+explorer_show_hiden_files=1
+
 #linutil__christitus=1
 
 numlock_startup="on"
