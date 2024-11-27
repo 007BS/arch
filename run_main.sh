@@ -6,4 +6,4 @@
 
 bash <(curl -L https://raw.githubusercontent.com/TheSuperGiant/Arch/refs/heads/Arch/2.sh) "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/config.sh" "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/config_after.sh" | source -s -- && source ~/.bashrc
 
-echo "2 jippie "
+echo "3 jippie "
