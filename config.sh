@@ -72,6 +72,7 @@ add_device_labels=("Data" "Games")
 
 #linutil__christitus=1
 
+StartScript="bla"
 sudo_reboot=1
 
 #Dark='Windows-10-Dark'
