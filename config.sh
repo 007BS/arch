@@ -72,6 +72,8 @@ add_device_labels=("Data" "Games")
 
 #linutil__christitus=1
 
+numlock_startup="on"
+
 StartScript=""
 sudo_reboot=1
 
