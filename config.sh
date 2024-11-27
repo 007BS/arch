@@ -72,8 +72,11 @@ add_device_labels=("Data" "Games")
 
 #linutil__christitus=1
 
+sudo_reboot=1
+
 #Dark='Windows-10-Dark'
 #theme__setting__applications=$Dark
 #theme__setting__dekstop=$Dark
 #theme__setting__mouse="Adwaita"
 #theme__pack__Windows_10_Dark=1
+
