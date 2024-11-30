@@ -71,6 +71,7 @@ App_Install__wine_mono=1
 add_device_labels=("Data" "Games")
 
 Setting__explorer__show_hiden_files=1
+Setting__screensaver=0
 Setting__theme__mouse="Adwaita"
 
 #linutil__christitus=1
