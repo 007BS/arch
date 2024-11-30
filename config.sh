@@ -70,7 +70,8 @@ App_Install__wine_mono=1
 
 add_device_labels=("Data" "Games")
 
-Setting__explorer_show_hiden_files=1
+Setting__explorer__show_hiden_files=1
+Setting__theme__mouse="Adwaita"
 
 #linutil__christitus=1
 
@@ -81,7 +82,8 @@ sudo_reboot=1
 
 #Dark='Windows-10-Dark'
 #theme__setting__applications=$Dark
-#theme__setting__dekstop=$Dark
+##theme__setting__dekstop=$Dark
+#theme__setting__dekstop="cinnamon"
 #theme__setting__mouse="Adwaita"
 #theme__pack__Windows_10_Dark=1
 
