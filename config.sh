@@ -71,6 +71,8 @@ App_Install__wine_mono=1
 add_device_labels=("Data" "Games")
 
 Setting__explorer__show_hiden_files=1
+Setting__power__display_sleep_ac=600
+Setting__power__display_sleep_battery=600
 Setting__screensaver=0
 Setting__theme__mouse="Adwaita"
 
