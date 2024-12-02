@@ -45,7 +45,7 @@ App_Install__wine_mono=1
 #App_Install__gimp=0
 #App_Install__handbrake=1
 #App_Install__jitsi_meet=0
-App_Install__keepass=1
+#App_Install__keepass=1
 #App_Install__libreoffice=1
 #App_Install__mega=1
 #App_Install__notepadqq=1
@@ -70,6 +70,7 @@ App_Install__keepass=1
 
 add_device_labels=("Data" "Games")
 
+Setting__clock__show_date=0
 Setting__explorer__show_hiden_files=1
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
