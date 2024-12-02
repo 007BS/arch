@@ -74,6 +74,9 @@ Setting__explorer__show_hiden_files=1
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__screensaver=0
+Setting__theme__applications="Windows-10-Dark"
+#Setting__theme__dekstop="Windows-10-Dark"
+Setting__theme__dekstop="cinnamon"
 Setting__theme__mouse="Adwaita"
 
 #linutil__christitus=1
