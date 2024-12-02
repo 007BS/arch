@@ -45,7 +45,7 @@ App_Install__wine_mono=1
 #App_Install__gimp=0
 #App_Install__handbrake=1
 #App_Install__jitsi_meet=0
-#App_Install__keepass=1
+App_Install__keepass=1
 #App_Install__libreoffice=1
 #App_Install__mega=1
 #App_Install__notepadqq=1
@@ -74,6 +74,7 @@ Setting__explorer__show_hiden_files=1
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__screensaver=0
+#Dark="Windows-10-Dark"
 Setting__theme__applications="Windows-10-Dark"
 #Setting__theme__dekstop="Windows-10-Dark"
 Setting__theme__dekstop="cinnamon"
@@ -86,10 +87,5 @@ numlock_startup="on"
 StartScript=""
 sudo_reboot=1
 
-#Dark='Windows-10-Dark'
-#theme__setting__applications=$Dark
-##theme__setting__dekstop=$Dark
-#theme__setting__dekstop="cinnamon"
-#theme__setting__mouse="Adwaita"
 #theme__pack__Windows_10_Dark=1
 
