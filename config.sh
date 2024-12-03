@@ -72,6 +72,7 @@ add_device_labels=("Data" "Games")
 
 Setting__clock__show_date=0
 Setting__explorer__show_hiden_files=1
+Setting__mouse__locate_pointer=1
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__privicy__recent_files=0
