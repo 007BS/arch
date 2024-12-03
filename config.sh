@@ -83,6 +83,7 @@ Setting__font__explorer="$font"
 Setting__font__monospace="$font"
 Setting__font__titlebar="$font"
 Setting__mouse__locate_pointer=1
+Setting__mouse__size=36
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__privicy__recent_files=0
