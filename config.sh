@@ -46,8 +46,10 @@ App_Install__wine_mono=1
 #App_Install__handbrake=1
 #App_Install__jitsi_meet=0
 #App_Install__keepass=1
+App_Install__leafpad=1
 #App_Install__libreoffice=1
 #App_Install__mega=1
+App_Install__mousepad=1
 #App_Install__notepadqq=1
 #App_Install__notepadPlusPlus=1
 #App_Install__numlockx=1
@@ -67,7 +69,7 @@ App_Install__wine_mono=1
 #App_Install__vlc=1
 #App_Install__vuze=0
 #App_Install__wire=1
-App_Install__xed=1
+#App_Install__xed=0
 
 add_device_labels=("Data" "Games")
 
