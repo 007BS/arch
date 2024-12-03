@@ -19,7 +19,7 @@
 
 #game launchers
 #App_Install__heroic_launcher=1
-#App_Install__minecraft_launcher=1
+App_Install__minecraft_launcher=1
 #App_Install__paradox_launcher=1
 
 #Terminals
