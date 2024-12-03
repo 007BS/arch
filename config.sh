@@ -46,10 +46,10 @@ App_Install__wine_mono=1
 #App_Install__handbrake=1
 #App_Install__jitsi_meet=0
 #App_Install__keepass=1
-App_Install__leafpad=1
+#App_Install__leafpad=1
 #App_Install__libreoffice=1
 #App_Install__mega=1
-App_Install__mousepad=1
+#App_Install__mousepad=0
 #App_Install__notepadqq=1
 #App_Install__notepadPlusPlus=1
 #App_Install__numlockx=1
@@ -73,8 +73,15 @@ App_Install__mousepad=1
 
 add_device_labels=("Data" "Games")
 
+
+font="DejaVu Sans Mono Book 13"
 Setting__clock__show_date=0
 Setting__explorer__show_hiden_files=1
+Setting__font__default="$font"
+Setting__font__document="$font"
+Setting__font__explorer="$font"
+Setting__font__monospace="$font"
+Setting__font__titlebar="$font"
 Setting__mouse__locate_pointer=1
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
