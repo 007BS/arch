@@ -67,6 +67,7 @@ App_Install__wine_mono=1
 #App_Install__vlc=1
 #App_Install__vuze=0
 #App_Install__wire=1
+App_Install__xed=1
 
 add_device_labels=("Data" "Games")
 
