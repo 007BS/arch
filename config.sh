@@ -93,6 +93,7 @@ Setting__privicy__old_age_files=30
 Setting__privicy__old_temp_files=1
 Setting__privicy__old_trash_files=1
 Setting__privicy__recent_files=0
+Setting__privicy__recent_files_age=0
 Setting__sounds__event=0
 Setting__sounds__feedback=0
 Setting__sounds__login=0
