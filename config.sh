@@ -19,15 +19,15 @@
 
 #game launchers
 #App_Install__heroic_launcher=1
-App_Install__minecraft_launcher=1
+#App_Install__minecraft_launcher=1
 #App_Install__paradox_launcher=1
 
 #Terminals
 App_Install__gnome_terminal=1
 
 #themes
-#App_Install__adwaita_theme=1
-#App_Install__font_dejavu=1
+App_Install__adwaita_theme=1
+App_Install__font_dejavu=1
 
 
 
@@ -87,6 +87,9 @@ Setting__mouse__size=36
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__privicy__recent_files=0
+Setting__privicy__age_files=30
+Setting__privicy__temp_files=1
+Setting__privicy__trash_files=1
 Setting__sounds__event=0
 Setting__sounds__feedback=0
 Setting__sounds__login=0
