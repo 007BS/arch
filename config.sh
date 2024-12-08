@@ -74,14 +74,14 @@ App_Install__wine_mono=1
 add_device_labels=("Data" "Games")
 
 function__add_alias=1
-#function__add_device_label=1
-#function__add_function=1
-#function__add_lightdm=1
-#function__add_sudo=1
+function__add_device_label=1
+function__add_function=1
+function__add_lightdm=1
+function__add_sudo=1
 function__bool=1
 function__md=1
 function__mds=1
-#function__mdr=1
+function__mdr=1
 
 
 font="DejaVu Sans Mono Book 13"
