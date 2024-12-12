@@ -126,12 +126,12 @@ Setting__theme__applications="Windows-10-Dark"
 Setting__theme__dekstop="cinnamon"
 Setting__theme__mouse="Adwaita"
 
-#linutil__christitus=1
+linutil__christitus=1
 
 numlock_startup="on"
 
 StartScript=""
 sudo_reboot=1
 
-#theme__pack__Windows_10_Dark=1
+theme__pack__Windows_10_Dark=1
 
