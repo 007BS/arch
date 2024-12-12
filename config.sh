@@ -126,7 +126,7 @@ Setting__theme__applications="Windows-10-Dark"
 Setting__theme__dekstop="cinnamon"
 Setting__theme__mouse="Adwaita"
 
-linutil__christitus=1
+#linutil__christitus=1
 
 numlock_startup="on"
 
