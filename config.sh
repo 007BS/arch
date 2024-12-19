@@ -74,6 +74,9 @@ App_Install__xed=0
 
 add_device_labels=("Data" "Games")
 
+DNS_Cloudflare=0
+DNS_Quad9=1
+
 function__add_alias=1
 function__add_device_label=1
 function__add_dns=0
