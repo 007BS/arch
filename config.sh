@@ -87,6 +87,7 @@ function__bool=1
 function__md=1
 function__mds=1
 function__mdr=1
+function__paru_clean=1
 
 
 font="DejaVu Sans Mono Book 13"
@@ -104,6 +105,7 @@ Setting__night_light__schedule_mode=0
 #Setting__night_light__schedule_from="20:30"
 #Setting__night_light__schedule_to="6:30"
 #Setting__night_light__temperature=2800
+Setting__power__button__power="shutdown"
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
 Setting__privicy__dis_camera=1
