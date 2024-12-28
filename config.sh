@@ -29,6 +29,9 @@ App_Install__gnome_terminal=1
 App_Install__adwaita_theme=1
 App_Install__font_dejavu=1
 
+#services
+App_Install__bluetooth=1
+
 
 
 App_Install__wine=1
@@ -84,6 +87,7 @@ function__add_function=1
 function__add_lightdm=1
 function__add_sudo=1
 function__bool=1
+function__dco=1
 function__md=1
 function__mds=1
 function__mdr=1
@@ -105,6 +109,11 @@ Setting__night_light__schedule_mode=0
 #Setting__night_light__schedule_from="20:30"
 #Setting__night_light__schedule_to="6:30"
 #Setting__night_light__temperature=2800
+Setting__notifications__display_notifications=0
+Setting__notifications__bottom_notifications=1
+Setting__notifications__fullscreen_notifications=1
+Setting__notifications__notification_duration=3
+Setting__notifications__remove_old=1
 Setting__power__button__power="shutdown"
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
