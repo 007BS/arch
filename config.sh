@@ -96,6 +96,7 @@ function__paru_clean=1
 
 font="DejaVu Sans Mono Book 13"
 Setting__clock__show_date=0
+Setting__explorer__folder_viewer="list"
 Setting__explorer__show_hiden_files=1
 Setting__font__default="$font"
 Setting__font__document="$font"
