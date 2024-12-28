@@ -118,6 +118,8 @@ Setting__power__button__power="shutdown"
 Setting__power__close_lid="nothing"
 Setting__power__display_sleep_ac=600
 Setting__power__display_sleep_battery=600
+Setting__power__inactive_suspend_ac=0
+Setting__power__inactive_suspend_battery=0
 Setting__privicy__dis_camera=1
 Setting__privicy__dis_mic=0
 Setting__privicy__dis_sound=0
@@ -144,7 +146,6 @@ Setting__sounds__window_unmaximize=0
 Setting__screensaver=0
 #Dark="Windows-10-Dark"
 Setting__theme__applications="Windows-10-Dark"
-#Setting__theme__dekstop="Windows-10-Dark"
 Setting__theme__dekstop="cinnamon"
 Setting__theme__mouse="Adwaita"
 
