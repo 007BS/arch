@@ -98,6 +98,7 @@ font="DejaVu Sans Mono Book 13"
 Setting__clock__show_date=0
 Setting__explorer__click="single"
 Setting__explorer__confirm_files_to_trash=0
+Setting__explorer__date-format="iso"
 Setting__explorer__folder_viewer="list-view"
 Setting__explorer__show_hiden_files=1
 Setting__font__default="$font"
