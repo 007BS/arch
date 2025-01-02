@@ -75,6 +75,8 @@ App_Install__vuze=0
 App_Install__wire=1
 App_Install__xed=0
 
+applet__notfication=1
+
 add_device_labels=("Data" "Games")
 
 DNS_Cloudflare=0
