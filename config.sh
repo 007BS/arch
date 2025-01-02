@@ -40,6 +40,7 @@ App_Install__anydesk=0
 App_Install__audacity=0
 App_Install__biglybt=1
 App_Install__bleachbit=1
+App_Install__bluetooth=1
 App_Install__calibre=0
 App_Install__discord=1
 App_Install__dropbox=0
