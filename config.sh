@@ -76,6 +76,8 @@ App_Install__wire=1
 App_Install__xed=0
 
 applet__notfication=1
+applet__printer=0
+applet__start_menu=0
 
 add_device_labels=("Data" "Games")
 
@@ -94,6 +96,7 @@ function__md=1
 function__mds=1
 function__mdr=1
 function__paru_clean=1
+function__ssu=1
 
 
 font="DejaVu Sans Mono Book 13"
