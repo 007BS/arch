@@ -77,8 +77,6 @@ App_Install__xed=0
 
 applet__notfication=1
 applet__printer=0
-applet__start_menu=0
-
 add_device_labels=("Data" "Games")
 
 DNS_Cloudflare=0
@@ -98,6 +96,8 @@ function__mdr=1
 function__paru_clean=1
 function__ssu=1
 
+
+ipV6_disable=1
 
 font="DejaVu Sans Mono Book 13"
 Setting__clock__show_date=0
