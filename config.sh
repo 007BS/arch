@@ -93,6 +93,7 @@ function__dco=1
 function__md=1
 function__mds=1
 function__mdr=1
+function__par=1
 function__paru_clean=1
 function__ssu=1
 
