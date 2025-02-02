@@ -4,6 +4,12 @@
 # By using this script, you acknowledge that you do so at your own risk.
 # I am not responsible for any damage, data loss, or other issues that may result from the use of this script.
 
+desktop_environment="cinnamon"
+login_screen="lightdm"
+terminal="gnome_terminal"
+
+
+
 #Archives
 App_Install__7_zip=1
 
@@ -48,6 +54,7 @@ App_Install__filezilla=1
 App_Install__git=1
 App_Install__gimp=0
 App_Install__gnome_calculator=0
+App_Install__gthumb=0
 App_Install__handbrake=1
 App_Install__jitsi_meet=0
 App_Install__kcalc=0
@@ -109,7 +116,6 @@ Setting__Default_terminal="gnome-terminal"
 Default_text_files__app="leafpad"
 Default_torrent__app="biglybt"
 Default_web_edditor=""
-
 
 DNS_Cloudflare=0
 DNS_Quad9=1
