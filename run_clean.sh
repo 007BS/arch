@@ -5,4 +5,4 @@
 # I am not responsible for any damage, data loss, or other issues that may result from the use of this script.
 
 #bash <(curl -L https://raw.githubusercontent.com/TheSuperGiant/Arch/refs/heads/Arch/1.sh) "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/config.sh" "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/run_main.sh"
-systemd-inhibit --mode=block bash <(curl -L https://raw.githubusercontent.com/TheSuperGiant/Arch/refs/heads/Arch/1.sh) "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/config.sh" "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/run_main.sh" >/dev/null 2>&1
+bash <(curl -L https://raw.githubusercontent.com/TheSuperGiant/Arch/refs/heads/Arch/1.sh) "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/config.sh" "https://raw.githubusercontent.com/007BS/arch/refs/heads/Arch/run_main.sh"
