@@ -194,7 +194,8 @@ Setting__sounds__window_tile_snap=0
 Setting__sounds__window_unmaximize=0
 Setting__screensaver=0
 #Dark="Windows-10-Dark"
-Setting__theme__app=""lications="Windows-10-Dark"
+Setting__theme__app=""
+Setting__theme__applications="Windows-10-Dark"
 Setting__theme__dekstop="cinnamon"
 Setting__theme__mouse="Adwaita"
 
