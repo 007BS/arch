@@ -75,6 +75,7 @@ App_Install__openoffice=0
 App_Install__pcloud=1
 App_Install__peazip=1
 App_Install__pidgin=0
+App_Install__rustdesk=0
 App_Install__scrcpy=1
 App_Install__session=0
 App_Install__signal=0
@@ -140,6 +141,7 @@ function__ssu=1
 ipV6_disable=1
 
 font="DejaVu Sans Mono Book 13"
+Setting__autorun=1
 Setting__clock__show_date=0
 Setting__explorer__click="single"
 Setting__explorer__confirm_files_to_trash=0
