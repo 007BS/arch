@@ -14,10 +14,11 @@ terminal="gnome_terminal"
 App_Install__7_zip=1
 
 #browsers
-App_Install__brave=1
-App_Install__firefox=1
+#App_Install__brave=1
+App_Install__firefox=0
 App_Install__google_chrome=0
 App_Install__librewolf=1
+App_Install__mullvad_browser=1
 App_Install__opera=0
 App_Install__thorium=1
 App_Install__torbrowser=0
@@ -112,6 +113,7 @@ App_Install__xed=0
 #App_Startup__mega=0
 #App_Startup__minecraft_launcher=0
 #App_Startup__mpv_Media_player=0
+#App_Startup__mullvad_browser=0
 #App_Startup__nautilus=0
 #App_Startup__nemo=0
 #App_Startup__notepadqq=0
