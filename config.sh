@@ -14,7 +14,7 @@ terminal="gnome_terminal"
 App_Install__7_zip=1
 
 #browsers
-#App_Install__brave=1
+App_Install__brave=1
 App_Install__firefox=0
 App_Install__google_chrome=0
 App_Install__librewolf=1
@@ -177,6 +177,7 @@ function__add_function=1
 function__add_lightdm=1
 function__add_sudo=1
 function__bool=1
+function__Clean_Folder=1
 function__dco=1
 function__md=1
 function__mds=1
@@ -186,6 +187,7 @@ function__par=1
 function__paru_clean=1
 function__pf=0
 function__sp=1
+function__start_s=1
 function__ssu=1
 
 
@@ -200,6 +202,8 @@ personal_folder__Pictures=1
 personal_folder__Public=1
 personal_folder__Templates=0
 personal_folder__Videos=1
+
+Project_Clone=1
 
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
@@ -266,7 +270,7 @@ Setting__theme__mouse="Adwaita"
 
 numlock_startup="on"
 
-StartScript=""
+Startup_Script=1
 sudo_reboot=1
 
 theme__pack__Windows_10_Dark=1
