@@ -280,4 +280,4 @@ sudo_reboot=1
 
 theme__pack__Windows_10_Dark=1
 
-#time_zone="Europe/Amsterdam"
+time_zone="Europe/Amsterdam"
