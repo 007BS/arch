@@ -283,4 +283,4 @@ theme__pack__Windows_10_Dark=1
 time_zone="Europe/Amsterdam"
 
 #Archtitus secefic variables
-#install_type="MINIMAL"
+install_type="MINIMAL"
