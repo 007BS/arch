@@ -234,8 +234,10 @@ function__box_part=0
 function__box_sub=0
 function__Clean_Folder=1
 function__dco=1
+function__dco_value=0
 function__dcoa=0
 function__dcod=0
+function__dcor=0
 function__dcow=0
 function__error=0
 function__ext4setup=1
@@ -275,7 +277,9 @@ git_repo__thesupergiant__linux_tools=0
 
 gpu_default="nvidia"
 
-ipV6_disable=1
+IPv6_hardening=1
+
+#network_check_on_boot=1 #disabled maby actived later
 
 personal_folder_place="/mnt/data/$USER"
 personal_folder__Desktop=1
@@ -297,7 +301,9 @@ s_links=("$HOME/Pcloud/Pcloud/Linux/0/personal $function_personal_path")
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
 Setting__background_color="#000000000000"
-Setting__background_image="$HOME"
+Setting__background_color_type="none"
+Setting__background_image=""
+Setting__background_options="none"
 Setting__clock__show_date=0
 Setting__explorer__always_open_in_a_new_window=0
 Setting__explorer__click="single"
