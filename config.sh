@@ -295,7 +295,7 @@ folder+="pcloud mega .ssh"
 Project_Clone=1
 
 ram__tmp=1
-test
+
 s_links=("$HOME/Pcloud/Pcloud/Linux/0/personal $function_personal_path")
 
 font="DejaVu Sans Mono Book 13"
