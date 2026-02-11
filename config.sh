@@ -214,7 +214,7 @@ Setting__Default_terminal="gnome-terminal"
 Default_text_files__app="leafpad"
 Default_torrent__app="biglybt"
 Default_web_edditor=""
-
+test
 DNS_Cloudflare=0
 DNS_Quad9=1
 
