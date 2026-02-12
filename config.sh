@@ -263,6 +263,7 @@ function__update=1
 function__wdroid=1
 #function__wdroid=1
 #function__wdroid=1
+#function__wdroid=1
 
 function_personal_path="$HOME/scripts/personal"
 function_personal="$function_personal_path/function_personal.sh"
