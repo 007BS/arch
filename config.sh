@@ -292,8 +292,6 @@ personal_folder__Templates=0
 personal_folder__Videos=1
 folder+="pcloud mega .ssh"
 
-Project_Clone=1
-
 ram__tmp=1
 
 s_links=("$HOME/Pcloud/Pcloud/Linux/0/personal $function_personal_path")
@@ -416,7 +414,7 @@ numlock_startup="on"
 script_main=1
 script_startup=1
 
-sudo_reboot=1
+sudo_reboot=0
 
 if [[ $DISTRO == "Arch Linux" ]]; then
 	theme__pack__Windows_10_Dark=1
@@ -437,7 +435,7 @@ Debloading__linux_mint__calendar=0
 Debloading__linux_mint__celluloid=1
 Debloading__linux_mint__disk_usage_analyzer=1
 Debloading__linux_mint__document_viewer=1
-Debloading__linux_mint__document_viewer=0
+Debloading__linux_mint__drawing=1
 Debloading__linux_mint__file_renamer=1
 Debloading__linux_mint__fingerprints=1
 Debloading__linux_mint__firefox=0
