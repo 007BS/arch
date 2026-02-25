@@ -4,6 +4,12 @@
 # By using this script, you acknowledge that you do so at your own risk.
 # I am not responsible for any damage, data loss, or other issues that may result from the use of this script.
 
+#personal
+data_mounting_location="/mnt/data"
+data_temp_folder="$data_mounting_location/00temp"
+
+
+
 DISTRO=$(grep '^NAME=' /etc/os-release | cut -d= -f2 | tr -d '"')
 
 
@@ -220,6 +226,8 @@ DNS_Quad9=1
 
 Firewall__Default=1
 
+Flatpak_app_settings=("app.grayjay.Grayjay $data_temp_folder")
+
 function__add_alias=1
 function__add_device_label=1
 function__add_dns=0
@@ -241,6 +249,7 @@ function__dcor=0
 function__dcow=0
 function__error=0
 function__ext4setup=1
+function__flat=1
 function__git_config=0
 function__git_u=1
 function__git_update=0
@@ -281,7 +290,7 @@ IPv6_hardening=1
 
 #network_check_on_boot=1 #disabled maby actived later
 
-personal_folder_place="/mnt/data/$USER"
+personal_folder_place="$data_mounting_location/$USER"
 personal_folder__Desktop=1
 personal_folder__Documents=1
 personal_folder__Downloads=1
@@ -294,7 +303,8 @@ folder+="pcloud mega .ssh"
 
 ram__tmp=1
 
-s_links=("$HOME/Pcloud/Pcloud/Linux/0/personal $function_personal_path")
+grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
+s_links=("$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "/data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
 
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
