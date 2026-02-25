@@ -226,7 +226,7 @@ DNS_Quad9=1
 
 Firewall__Default=1
 
-Flatpak_app_settings=("app.grayjay.Grayjay $data_temp_folder")
+flatpak_app_settings=("app.grayjay.Grayjay $data_temp_folder")
 
 function__add_alias=1
 function__add_device_label=1
@@ -304,7 +304,7 @@ folder+="pcloud mega .ssh"
 ram__tmp=1
 
 grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
-s_links=("$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "/data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
+s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "/data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
 
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
