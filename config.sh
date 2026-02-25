@@ -304,7 +304,7 @@ folder+="pcloud mega .ssh"
 ram__tmp=1
 
 grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
-s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "/data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
+s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "$data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
 
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
