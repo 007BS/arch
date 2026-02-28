@@ -111,7 +111,7 @@ App_Install__pinta=0 #paint
 App_Install__pix=0 #image viewer | image orgenizer
 App_Install__proton_vpn=0 #vpn
 App_Install__qbittorrent=0 #torrent downloader
-App_Install__qemu=0 #VM
+App_Install__qemu=1 #VM
 App_Install__rhythmbox=0 #music player
 App_Install__rustdesk=1 #remote
 App_Install__scrcpy=1 #android phone ubernemer
@@ -144,7 +144,7 @@ App_Install__waterfox=0 #browser
 App_Install__web_apps=0 #browser
 App_Install__winboat=0 #docker special for windows
 App_Install__wire=1 #chat messenger
-App_Install__xed=0 #
+App_Install__xed=0 #text edditor
 App_Install__xreader=0 #document viewer
 
 #App_Startup__audacity=0
