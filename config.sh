@@ -123,6 +123,7 @@ App_Install__smplayer=0 #video player
 App_Install__software_manager=0 #store
 App_Install__steam=1 #games_launcher
 App_Install__sticky=0 #notes
+App_Install__syncthing=1 #syncing
 App_Install__teamspeak=0 #chat messenger
 App_Install__teamviewer=0 #remote
 App_Install__thorium=1 #browser
