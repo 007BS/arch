@@ -229,12 +229,12 @@ Firewall__Default=1
 
 flatpak_app_settings=("app.grayjay.Grayjay $data_temp_folder")
 
-function__add_alias=1
-function__add_device_label=1
+function__add_alias=0
+function__add_device_label=0
 function__add_dns=0
-function__add_function=1
-function__add_lightdm=1
-function__add_sudo=1
+function__add_function=0
+function__add_lightdm=0
+function__add_sudo=0
 function__ap=1
 function__apt_fail=1
 function__bool=0
