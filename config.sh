@@ -6,7 +6,9 @@
 
 #personal
 data_mounting_location="/mnt/data"
+
 data_temp_folder="$data_mounting_location/00temp"
+data_temp_grayjay_folder="$data_temp_folder/Grayjay"
 
 
 
@@ -82,6 +84,7 @@ App_Install__leafpad=1 #text edditor
 App_Install__libreoffice=1 #office
 App_Install__librewolf=1 #browser
 App_Install__losslesscut=1 #video edditor
+App_Install__makemkv=1 #dvd ripper
 App_Install__megasync=1 #cloud
 App_Install__mintchat=0 #chat messenger
 App_Install__minecraft_launcher=1 #game launchers
@@ -227,7 +230,7 @@ DNS_Quad9=1
 
 Firewall__Default=1
 
-flatpak_app_settings=("app.grayjay.Grayjay $data_temp_folder")
+flatpak_app_settings=("app.grayjay.Grayjay $data_temp_grayjay_folder" "com.makemkv.MakeMKV data_temp_folder/MakeMKV")
 
 function__add_alias=0
 function__add_device_label=0
@@ -259,6 +262,7 @@ function__lsbl=1
 function__md=1
 function__mds=1
 function__mdr=1
+function__nested_expension=1
 function__pa=1
 function__par=1
 function__paru_clean=1
@@ -305,7 +309,7 @@ folder+="pcloud mega .ssh"
 ram__tmp=1
 
 grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
-s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_folder/Grayjay/downloads $grayjay_flatpak_location/downloads" "$data_temp_folder/Grayjay/imageCache $grayjay_flatpak_location/imageCache")
+s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_grayjay_folder/downloads $grayjay_flatpak_location/downloads" "$data_temp_grayjay_folder/imageCache $grayjay_flatpak_location/imageCache")
 
 font="DejaVu Sans Mono Book 13"
 Setting__autorun=1
