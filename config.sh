@@ -230,7 +230,7 @@ DNS_Quad9=1
 
 Firewall__Default=1
 
-flatpak_app_settings=("app.grayjay.Grayjay $data_temp_grayjay_folder" "com.makemkv.MakeMKV data_temp_folder/MakeMKV")
+flatpak_app_settings=("app.grayjay.Grayjay $data_temp_grayjay_folder" "com.makemkv.MakeMKV $data_temp_folder/MakeMKV")
 
 function__add_alias=0
 function__add_device_label=0
