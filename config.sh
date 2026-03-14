@@ -274,6 +274,7 @@ function__start_s=1
 function__ssh_key=1
 function__ssu=1
 function__update=1
+function__update_row=0
 function__wdroid=1
 
 function_personal_path="$HOME/scripts/personal"
