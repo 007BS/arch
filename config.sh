@@ -12,7 +12,7 @@ data_temp_grayjay_folder="$data_temp_folder/Grayjay"
 
 
 
-DISTRO=$(grep '^NAME=' /etc/os-release | cut -d= -f2 | tr -d '"')
+distro=$(source /etc/os-release; echo "$NAME")
 
 
 
@@ -312,7 +312,8 @@ grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
 s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_grayjay_folder/downloads $grayjay_flatpak_location/downloads" "$data_temp_grayjay_folder/imageCache $grayjay_flatpak_location/imageCache")
 
 font="DejaVu Sans Mono Book 13"
-Setting__autorun=1
+Setting__audio__hdmi_dp=0
+Setting__autorun=0
 Setting__background_color="#000000000000"
 Setting__background_color_type="none"
 Setting__background_image=""
