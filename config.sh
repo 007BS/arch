@@ -238,6 +238,7 @@ function__add_dns=0
 function__add_function=0
 function__add_lightdm=0
 function__add_sudo=0
+function__add_to_row=0
 function__ap=1
 function__apt_fail=1
 function__bool=0
