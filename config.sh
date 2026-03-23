@@ -75,6 +75,7 @@ App_Install__hp_printer=1 #printer drivers
 App_Install__hp_printer__on_decetion=1 #printer drivers
 App_Install__hypnotix=0 #tv live streamer
 App_Install__jitsi_meet=0 #chat messenger
+App_Install__jq=0 #??
 App_Install__kcalc=0 #calculator ??
 App_Install__keepass=1 #password database | keepass
 App_Install__keepassxc=0 #password database | keepass
