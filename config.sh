@@ -152,6 +152,8 @@ App_Install__wire=1 #chat messenger
 App_Install__xed=0 #text edditor
 App_Install__xreader=0 #document viewer
 
+app_service_startup__rustdesk=0
+
 #App_Startup__audacity=0
 #App_Startup__biglybt=1
 #App_Startup__brave=1
