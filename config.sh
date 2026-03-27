@@ -19,7 +19,7 @@ distro=$(source /etc/os-release; echo "$NAME")
 desktop_environment="cinnamon"
 login_screen="lightdm"
 terminal="gnome_terminal"
-
+pc_name=$(hostname)
 
 
 #themes
@@ -152,7 +152,9 @@ App_Install__wire=1 #chat messenger
 App_Install__xed=0 #text edditor
 App_Install__xreader=0 #document viewer
 
-app_service_startup__rustdesk=0
+if [[ "$pc_name" =~ ^(dennis-pc|dennis-laptop)$ ]]; then
+	app_service_startup__rustdesk=0
+fi
 
 #App_Startup__audacity=0
 #App_Startup__biglybt=1
@@ -272,6 +274,7 @@ function__paru_clean=1
 function__pause=1
 function__pf=0
 function__s_link=1
+function__service_toggle=1
 function__sp=1
 function__start_s=1
 function__ssh_key=1
