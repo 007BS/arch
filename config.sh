@@ -19,7 +19,7 @@ distro=$(source /etc/os-release; echo "$NAME")
 desktop_environment="cinnamon"
 login_screen="lightdm"
 terminal="gnome_terminal"
-pc_name=$(hostname)
+pc_name=$(hostnamectl --static)
 
 
 #themes
