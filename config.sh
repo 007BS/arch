@@ -152,10 +152,6 @@ App_Install__wire=1 #chat messenger
 App_Install__xed=0 #text edditor
 App_Install__xreader=0 #document viewer
 
-if [[ "$pc_name" =~ ^(dennis-pc|dennis-laptop)$ ]]; then
-	app_service_startup__rustdesk=0
-fi
-
 #App_Startup__audacity=0
 #App_Startup__biglybt=1
 #App_Startup__brave=1
@@ -318,6 +314,11 @@ ram__tmp=1
 
 grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
 s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_grayjay_folder/downloads $grayjay_flatpak_location/downloads" "$data_temp_grayjay_folder/imageCache $grayjay_flatpak_location/imageCache")
+
+service_boot_toggle__bluetooth=1
+if [[ "$pc_name" =~ ^(dennis-pc|dennis-laptop)$ ]]; then
+	service_boot_toggle__rustdesk=0
+fi
 
 font="DejaVu Sans Mono Book 13"
 Setting__audio__hdmi_dp=0
