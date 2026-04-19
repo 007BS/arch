@@ -31,9 +31,9 @@ App_Install__bluetooth=1
 
 
 
-App_Install__wine=1
-App_Install__wine_mono=1
-App_Install__7_zip=1 #archive
+App_Install__wine=0
+App_Install__wine_mono=0
+#App_Install__7_zip=1 #archive
 App_Install__anydesk=0 #remote
 App_Install__audacity=1 #audio edditing
 App_Install__backup_tool=0 #file backup
@@ -43,7 +43,7 @@ App_Install__brave=1 #browser
 App_Install__btop=1 #task manager
 App_Install__bulky=0 #file renamer
 App_Install__calibre=0 #Ebook library
-App_Install__celluloid=0 #chat messenger
+App_Install__celluloid=0 #video player
 App_Install__discord=0 #chat messenger
 App_Install__disk_usage_analyzer=0 #Disk usage analyzer
 App_Install__disks=0 #disk manager
@@ -74,6 +74,7 @@ App_Install__heroic_launcher=1 #game launchers
 App_Install__hp_printer=1 #printer drivers
 App_Install__hp_printer__on_decetion=1 #printer drivers
 App_Install__hypnotix=0 #tv live streamer
+App_Install__imagemagick=1 #image resizer
 App_Install__jitsi_meet=0 #chat messenger
 App_Install__jq=0 #??
 App_Install__kcalc=0 #calculator ??
@@ -94,14 +95,15 @@ App_Install__mousepad=0 #text edditor ???
 App_Install__mpv_Media_player=0 #video player
 App_Install__mtpaint=0 #paint
 App_Install__mullvad_browser=1 #browser
-App_Install__mullvad_VPN=0 #VPN
+App_Install__mullvad_vpn=0 #VPN
 App_Install__mypaint=0 #paint
 App_Install__nautilus=0
 App_Install__ncdu=1 #Disk usage analyzer
-App_Install__nftables=1
 App_Install__nomacs=1 #image viewer
-App_Install__notepadqq=0 #text edditor
+App_Install__notepadminusminus=0 #text edditor
+App_Install__notepadnext=0 #text edditor
 App_Install__notepadPlusPlus=1 #text edditor
+App_Install__notepadqq=0 #text edditor
 App_Install__numlockx=1 #setting - numblock
 App_Install__obs_studio=0 #recording
 App_Install__onboard=0 #keyboard onscreen
@@ -127,9 +129,9 @@ App_Install__smplayer=0 #video player
 App_Install__software_manager=0 #store
 App_Install__steam=1 #games_launcher
 App_Install__sticky=0 #notes
-App_Install__syncthing=1 #syncing
+App_Install__syncthing=0 #syncing
 App_Install__teamspeak=0 #chat messenger
-App_Install__teamviewer=0 #remote
+App_Install__teamspeak_server=0 #chat messenger
 App_Install__thorium=1 #browser
 App_Install__thingy=0 #files libary
 App_Install__thunar=1 #explorer
@@ -137,6 +139,7 @@ App_Install__thunderbird=0 #email
 App_Install__tigervnc=0 #local remote
 App_Install__torbrowser=0 #browser
 App_Install__transmission=0 #torrent downloader
+App_Install__unison=1 #text edditor
 App_Install__vim=0 #text edditor
 App_Install__virt_viewer=1 #remote
 App_Install__virtualbox=0 #VM
@@ -149,6 +152,7 @@ App_Install__waterfox=0 #browser
 App_Install__web_apps=0 #browser
 App_Install__winboat=0 #docker special for windows
 App_Install__wire=1 #chat messenger
+App_Install__xdotool=1 #auto typing
 App_Install__xed=0 #text edditor
 App_Install__xreader=0 #document viewer
 
@@ -230,6 +234,7 @@ DNS_Cloudflare=0
 DNS_Quad9=1
 
 Firewall__Default=1
+firewall__Recommanded_rules=1
 
 flatpak_app_settings=("app.grayjay.Grayjay $data_temp_grayjay_folder" "com.makemkv.MakeMKV $data_temp_folder/MakeMKV")
 
@@ -244,8 +249,9 @@ function__ap=1
 function__apt_fail=1
 function__bool=0
 function__box=0
-function__box_part=0
-function__box_sub=0
+function__box_betwean=1
+function__box_part=1
+function__box_sub=1
 function__Clean_Folder=1
 function__dco=1
 function__dco_value=0
@@ -277,7 +283,7 @@ function__ssh_key=1
 function__sud=1
 function__update=1
 function__update_row=0
-function__var_val=0
+function__var_val=1
 function__wdroid=1
 
 function_personal_path="$HOME/scripts/personal"
@@ -316,6 +322,8 @@ grayjay_flatpak_location="$HOME/.var/app/app.grayjay.Grayjay/data/Grayjay"
 s_links=("-f" "$HOME/Mega/Linux/0/personal $function_personal_path" "$data_temp_grayjay_folder/downloads $grayjay_flatpak_location/downloads" "$data_temp_grayjay_folder/imageCache $grayjay_flatpak_location/imageCache")
 
 service_boot_toggle__bluetooth=1
+service_boot_toggle__cups=0
+service_boot_toggle__libvirtd=0
 if [[ "$pc_name" =~ ^(dennis-pc|dennis-laptop)$ ]]; then
 	service_boot_toggle__rustdesk=0
 fi
@@ -446,6 +454,9 @@ if [[ $DISTRO == "Arch Linux" ]]; then
 fi
 
 time_zone="Europe/Amsterdam"
+
+#Arch distros only
+aur_helper=("yay" "paru")
 
 #cinnamon specific
 Debloading__cinnamon__nemo=1
